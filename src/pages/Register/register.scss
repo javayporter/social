@@ -1,0 +1,73 @@
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(93, 61, 120);
+  .card {
+    width: 60%;
+    display: flex;
+    //flex-direction: row-reverse;
+    background-color: white;
+    min-height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    .left {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      h1 {
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+        }
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      background: linear-gradient(
+          rgba(194, 26, 129, 0.343),
+          rgba(0, 0, 255, 0.303)
+        ),
+        url("https://images.pexels.com/photos/3052360/pexels-photo-3052360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+          center;
+      background-size: cover;
+      color: white;
+      h1 {
+        font-size: 100px;
+        line-height: 100px;
+      }
+      p {
+      }
+      span {
+        font-size: 14px;
+      }
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}
