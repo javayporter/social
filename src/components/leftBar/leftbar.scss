@@ -1,5 +1,14 @@
 .leftbar {
   flex: 2;
+  // start sticky;
+  position: sticky;
+  top: 70px; // height of the navbar
+  height: calc(100vh - 70px); // height of page minus navbar height
+  // end sticky
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
   .container {
     padding: 20px;
     hr {

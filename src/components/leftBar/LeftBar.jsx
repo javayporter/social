@@ -75,6 +75,34 @@ const LeftBar = () => {
             <Diversity3Icon />
             <span>Badges</span>
           </div>
+          <div className="item">
+            <Diversity3Icon />
+            <span>Badges</span>
+          </div>
+          <div className="item">
+            <Diversity3Icon />
+            <span>Badges</span>
+          </div>
+          <div className="item">
+            <Diversity3Icon />
+            <span>Badges</span>
+          </div>
+          <div className="item">
+            <Diversity3Icon />
+            <span>Badges</span>
+          </div>
+          <div className="item">
+            <Diversity3Icon />
+            <span>Badges</span>
+          </div>
+          <div className="item">
+            <Diversity3Icon />
+            <span>Badges</span>
+          </div>
+          <div className="item">
+            <Diversity3Icon />
+            <span>Badges</span>
+          </div>
         </div>
       </div>
     </div>
