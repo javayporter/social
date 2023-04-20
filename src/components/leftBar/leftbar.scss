@@ -1,0 +1,29 @@
+.leftbar {
+  flex: 2;
+  .container {
+    padding: 20px;
+    hr {
+      margin: 20px 0px;
+      border: none;
+      height: 0.5px;
+      background-color: lightgray;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      span {
+        font-size: 12px;
+      }
+      .item {
+        display: flex;
+        align-items: center;
+        span {
+          margin-left: 10px;
+          color: black;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
